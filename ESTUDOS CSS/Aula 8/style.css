@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+/* Usar # PARA ID e . PARA CLASS */
+body {
+    background-color: rgba(157, 255, 144, 0.616);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal {
+    text-align: center;
+    color: white ;
+    background-color: rgb(20, 151, 38);
+}
+.basico {
+    color: rgb(20, 151, 38);
+}
+
+.intermediario {
+    color: orangered;
+}
+.avancado {
+    color: red;
+}
+.destaque {
+    background-color: rgb(20, 151, 38); ;
+}
+h1 {
+    color: rgb(0, 0, 0) ;
+}
+h2 {
+    color: rgb(0, 94, 0);
+}
