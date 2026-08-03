@@ -48,7 +48,8 @@ header > p {
     font-size: 1.2em;
     max-width: 500px;
     margin: auto;
-    padding: 10px 0px 40px 0px;
+    padding: 10px 10px 50px 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.278);
 }
 nav {
     background-color: var(--cor5);
