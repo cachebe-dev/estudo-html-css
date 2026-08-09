@@ -51,21 +51,35 @@ header > h1 {
 section {
     padding: 10vh 0vh 10vh 30vh;
     line-height: 2em;
-
+    font-family: var(--font-principal);
+    font-size: 25px;
 }
 .normal {
     background-color: white;
 }
 .imagem {
-    background-color: red;
+    color: white;
+}
+
+#fundo-flor {
+    background-image: url("imagens/background001.jpg");
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 6px 19px 10px rgba(0, 0, 0, 0.548)
+}
+#fundo-livro {
+    background-image: url("imagens/background002.jpg");
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
     width: 400px;
-}
-.conteudo {
-    font-family: var(--font-principal);
-    font-size: 25px;
+    padding-left: 15px;
 }
 
 footer {
