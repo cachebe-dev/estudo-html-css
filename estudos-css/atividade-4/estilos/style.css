@@ -8,15 +8,23 @@
 }
 body {
     background-color: rgb(92, 0, 128);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    
 }
 
 main {
     background-color: white;
-    display: block;
-    margin: center;
     width: 50vw;
     border-radius: 20px;
     padding: 20px;
+}
+
+.conteudo {
+    align-items: center;
 }
 
 #entrar {
