@@ -22,13 +22,16 @@ main {
     border-radius: 20px;
     padding: 20px;
 }
-
+.container {
+    position: relative;
+    
+}
 .conteudo {
+    position: absolute;
     align-items: center;
 }
 
 #entrar {
-    display: block;
     background-color: rgb(46, 197, 185);
     color: white;
     border-radius: 5px;
@@ -38,7 +41,6 @@ main {
 }
 
 #esqueci {
-    display: block;
     background-color: white;
     color: rgb(0, 133, 173);
     border-radius: 5px;
