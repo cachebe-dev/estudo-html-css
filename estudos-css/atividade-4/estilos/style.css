@@ -19,7 +19,7 @@ body {
     position: relative;
     background-color: white;
     background-attachment: fixed;
-    width: 440px;
+    width: 400px;
     height: 600px;
     border-radius: 20px;
     
@@ -31,16 +31,14 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    left: 220px;
-    top: 49px;
-    transform: translate(-50%, -50px);
-    width: 440px;
+    width: 400px;
     height: 200px;
     border-radius: 20px 20px 0px 0px;
     
     
 }
 .conteudo {
+    display: block;
     position: absolute;
     align-items: center;
 }
