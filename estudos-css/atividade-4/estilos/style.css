@@ -12,39 +12,118 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vw;
+    height: 100vw;  
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    background-attachment: fixed;
+    width: 440px;
+    height: 600px;
+    border-radius: 20px;
     
 }
 
-main {
-    background-color: white;
-    width: 50vw;
-    border-radius: 20px;
-    padding: 20px;
-}
-.container {
+.imagem {
     position: relative;
+    background-image: url(../imagens/backgound-lite.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 220px;
+    top: 49px;
+    transform: translate(-50%, -50px);
+    width: 440px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    
     
 }
 .conteudo {
     position: absolute;
     align-items: center;
 }
+#titulo {
+    color: rgb(92, 0, 128);
+    display: block;
+    position: relative;
+    padding: 15px 0px 15px 0px;
+    align-items: center;
+    text-align: center;
+}
+#texto {
+    font-size: 1.2em;
+    margin: 0px 25px 10px 25px;
+    text-align: justify;
+}
+
+#iusuario {
+    width: 390px;
+    border: 2px solid rgb(92, 0, 128);
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    position: relative;
+    margin: 0px 25px 10px 25px;
+    text-indent: 45px;
+    font-size: 16px;
+    background-image: url(../imagens/user.svg);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-size: 30px;
+}
+
+#isenha {
+    width: 390px;
+    border: 2px solid #5c0080;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    position: relative;
+    margin: 0px 25px 10px 25px;
+    text-indent: 45px;
+    font-size: 16px;
+    background-image: url(../imagens/senha.svg);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-size: 30px;
+}
 
 #entrar {
+    display: block;
     background-color: rgb(46, 197, 185);
     color: white;
+    font-weight: 500;
+    font-size: 16px;
     border-radius: 5px;
-    margin-top: 8px;
+    border: none;
+    margin: 0px 25px 10px 25px;
+    width: 390px;
     padding: 5px;
-    min-width: 25vh;
 }
 
-#esqueci {
-    background-color: white;
-    color: rgb(0, 133, 173);
-    border-radius: 5px;
-    margin-top: 8px;
-    padding: 5px;
-    min-width: 25vh;
+#entrar:hover {
+    background-color: rgb(33, 143, 134);
+    transition-duration: 0.4s;
 }
+#esqueci {
+    display: block;
+    background-color: white;
+    color: rgb(41, 170, 159);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(46, 197, 185);
+    margin: 0px 25px 10px 25px;
+    width: 390px;
+    padding: 5px;
+}
+
+#esqueci:hover {
+    background-color: rgb(33, 143, 134);
+    color: white;
+    border: 1px solid rgb(33, 143, 134);
+    transition-duration: 0.4s;
+}
+
