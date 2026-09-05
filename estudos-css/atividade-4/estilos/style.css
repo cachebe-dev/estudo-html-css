@@ -19,9 +19,9 @@ body {
     position: relative;
     background-color: white;
     background-attachment: fixed;
-    width: 400px;
-    height: 620px;
-    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+    border-radius: 15px;
     
 }
 
@@ -31,79 +31,82 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
     
     
 }
 .conteudo {
     display: block;
-    width: 400px;
+    width: 250px;
     position: absolute;
     align-items: center;
 }
 #titulo {
+    font-size: 1.3em;
     color: rgb(92, 0, 128);
     display: block;
     position: relative;
-    padding: 15px 0px 15px 0px;
+    padding: 5px 0px 8px 0px;
     align-items: center;
     text-align: center;
 }
 #texto {
-    font-size: 1.2em;
+    font-size: 0.7em;
     margin: 0px 25px 10px 25px;
     text-align: justify;
 }
 
 #iusuario {
-    width: 350px;
+    width: 200px;
+    height: 5px;
     border: 2px solid rgb(92, 0, 128);
     border-radius: 5px;
     padding: 10px 0px 10px 0px;
     display: block;
     position: relative;
-    left: 6%;
+    left: 10%;
     margin-bottom: 10px;
-    text-indent: 45px;
-    font-size: 16px;
+    text-indent: 40px;
+    font-size: 12px;
     background-image: url(../imagens/user.svg);
     background-repeat: no-repeat;
     background-position: 6px;
-    background-size: 30px;
+    background-size: 24px;
 }
 
 #isenha {
-    width: 350px;
+    width: 200px;
+    height: 5px;
     border: 2px solid #5c0080;
     border-radius: 5px;
     padding: 10px 0px 10px 0px;
     display: block;
     position: relative;
-    left: 6%;
+    left: 10%;
     margin-bottom: 10px;
-    text-indent: 45px;
-    font-size: 16px;
+    text-indent: 40px;
+    font-size: 12px;
     background-image: url(../imagens/senha.svg);
     background-repeat: no-repeat;
     background-position: 6px;
-    background-size: 30px;
+    background-size: 24px;
 }
 
 #entrar {
     display: block;
     position: relative;
-    left: 6%;
+    left: 10%;
     background-color: rgb(46, 197, 185);
     color: white;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 5px;
     border: none;
-    margin-bottom: 10px;
-    width: 350px;
-    padding: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    padding: 3px;
 }
 
 #entrar:hover {
@@ -113,16 +116,15 @@ body {
 #esqueci {
     display: block;
     position: relative;
-    left: 6%;
+    left: 10%;
     background-color: white;
     color: rgb(41, 170, 159);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 5px;
     border: 1px solid rgb(46, 197, 185);
-    margin-bottom: 10px;
-    width: 350px;
-    padding: 5px;
+    width: 200px;
+    padding: 3px;
 }
 
 #esqueci:hover {
