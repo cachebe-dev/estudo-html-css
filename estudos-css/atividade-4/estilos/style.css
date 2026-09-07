@@ -19,8 +19,8 @@ body {
     position: relative;
     background-color: white;
     background-attachment: fixed;
-    width: 250px;
-    height: 400px;
+    width: 330px;
+    height: 500px;
     border-radius: 15px;
     
 }
@@ -31,43 +31,42 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 250px;
-    height: 120px;
+    width: 330px;
+    height: 150px;
     border-radius: 15px 15px 0px 0px;
     
     
 }
 .conteudo {
     display: block;
-    width: 250px;
+    width: 330px;
     position: absolute;
     align-items: center;
 }
 #titulo {
-    font-size: 1.3em;
+    font-size: 1.6em;
     color: rgb(92, 0, 128);
     display: block;
     position: relative;
-    padding: 5px 0px 8px 0px;
+    padding: 10px 0px 10px 0px;
     align-items: center;
     text-align: center;
 }
 #texto {
-    font-size: 0.7em;
-    margin: 0px 25px 10px 25px;
+    font-size: 0.9em;
+    margin: 0px 25px 15px 25px;
     text-align: justify;
 }
 
 #iusuario {
-    width: 200px;
+    width: 280px;
     height: 5px;
     border: 2px solid rgb(92, 0, 128);
     border-radius: 5px;
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
     display: block;
     position: relative;
-    left: 10%;
-    margin-bottom: 10px;
+    margin: 0px 25px 15px 25px;
     text-indent: 40px;
     font-size: 12px;
     background-image: url(../imagens/user.svg);
@@ -77,15 +76,14 @@ body {
 }
 
 #isenha {
-    width: 200px;
+    width: 280px;
     height: 5px;
     border: 2px solid #5c0080;
     border-radius: 5px;
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
     display: block;
     position: relative;
-    left: 10%;
-    margin-bottom: 10px;
+    margin: 0px 25px 15px 25px;
     text-indent: 40px;
     font-size: 12px;
     background-image: url(../imagens/senha.svg);
@@ -97,16 +95,16 @@ body {
 #entrar {
     display: block;
     position: relative;
-    left: 10%;
+    /* left: 7.5%; */
+    margin: 0px 25px 5px 25px;
     background-color: rgb(46, 197, 185);
     color: white;
     font-weight: 500;
     font-size: 12px;
     border-radius: 5px;
     border: none;
-    margin-bottom: 5px;
-    width: 200px;
-    padding: 3px;
+    width: 280px;
+    padding: 5px 0px 5px 0px;
 }
 
 #entrar:hover {
@@ -116,15 +114,15 @@ body {
 #esqueci {
     display: block;
     position: relative;
-    left: 10%;
+    margin: 0px 25px 5px 25px;
     background-color: white;
     color: rgb(41, 170, 159);
     font-weight: 500;
     font-size: 12px;
     border-radius: 5px;
     border: 1px solid rgb(46, 197, 185);
-    width: 200px;
-    padding: 3px;
+    width: 280px;
+    padding: 5px 0px 5px 0px;
 }
 
 #esqueci:hover {
