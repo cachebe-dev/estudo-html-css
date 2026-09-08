@@ -2,9 +2,149 @@
 
 /* Media Queries */
 
-@media screen and (min-width: 768px) {
+/* Typical Devices Breakpoints
+--------------------------------
+Pequenas Telas: até 600px
+Mobile: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes Telas: Acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to bottom, rgb(92, 0, 128), rgb(0, 133, 173));
         background-attachment: fixed;
+    }
+
+    .container {
+        width: 650px;
+        height: 760px;
+        border-radius: 30px;
+    }    
+    .imagem {
+        width: 650px;
+        height: 230px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .conteudo {
+        width: 650px;
+    }
+    #titulo {
+        font-size: 2.8em;
+        padding: 20px 0px 15px 0px;
+    }
+    #texto {
+        font-size: 1.3em;
+        margin: 0px 50px 15px 50px;
+    }
+    #iusuario {
+        width: 550px;
+        height: 15px;
+        padding: 15px 0px 15px 0px;
+        
+        margin: 0px 50px 15px 50px;
+        text-indent: 45px;
+        font-size: 15px;
+        
+        background-size: 30px;
+    }
+    #isenha {
+        width: 550px;
+        height: 15px;
+        padding: 15px 0px 15px 0px;
+
+        margin: 0px 50px 15px 50px;
+        text-indent: 45px;
+        font-size: 15px;
+        
+        background-size: 30px;
+    }
+    #entrar {
+        width: 550px;
+        margin: 0px 50px 12px 50px;
+        padding: 10px 0px 10px 0px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    #esqueci {
+        width: 550px;
+        margin: 0px 50px 0px 50px;
+        padding: 10px 0px 10px 0px;
+        font-weight: 600;
+        font-size: 20px;
+        border: 2px solid rgb(46, 197, 185);
+    }
+    #esqueci:hover {
+        border: 2px solid rgb(33, 143, 134);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, rgb(92, 0, 128), rgb(0, 133, 173));
+        background-attachment: fixed;
+    }
+
+    .container {
+        width: 900px;
+        height: 550px;
+        border-radius: 30px;
+    }    
+    .imagem {
+        width: 650px;
+        height: 230px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .conteudo {
+        width: 650px;
+    }
+    #titulo {
+        font-size: 2.8em;
+        padding: 20px 0px 15px 0px;
+    }
+    #texto {
+        font-size: 1.3em;
+        margin: 0px 50px 15px 50px;
+    }
+    #iusuario {
+        width: 550px;
+        height: 15px;
+        padding: 15px 0px 15px 0px;
+        
+        margin: 0px 50px 15px 50px;
+        text-indent: 45px;
+        font-size: 15px;
+        
+        background-size: 30px;
+    }
+    #isenha {
+        width: 550px;
+        height: 15px;
+        padding: 15px 0px 15px 0px;
+
+        margin: 0px 50px 15px 50px;
+        text-indent: 45px;
+        font-size: 15px;
+        
+        background-size: 30px;
+    }
+    #entrar {
+        width: 550px;
+        margin: 0px 50px 12px 50px;
+        padding: 10px 0px 10px 0px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    #esqueci {
+        width: 550px;
+        margin: 0px 50px 0px 50px;
+        padding: 10px 0px 10px 0px;
+        font-weight: 600;
+        font-size: 20px;
+        border: 2px solid rgb(46, 197, 185);
+    }
+    #esqueci:hover {
+        border: 2px solid rgb(33, 143, 134);
     }
 }
