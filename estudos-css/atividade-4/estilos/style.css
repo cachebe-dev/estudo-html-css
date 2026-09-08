@@ -19,9 +19,9 @@ body {
     position: relative;
     background-color: white;
     background-attachment: fixed;
-    width: 330px;
-    height: 500px;
-    border-radius: 15px;
+    width: 350px;
+    height: 520px;
+    border-radius: 20px;
     
 }
 
@@ -31,15 +31,15 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 330px;
-    height: 150px;
+    width: 350px;
+    height: 160px;
     border-radius: 15px 15px 0px 0px;
     
     
 }
 .conteudo {
     display: block;
-    width: 330px;
+    width: 350px;
     position: absolute;
     align-items: center;
 }
@@ -59,7 +59,7 @@ body {
 }
 
 #iusuario {
-    width: 280px;
+    width: 300px;
     height: 5px;
     border: 2px solid rgb(92, 0, 128);
     border-radius: 5px;
@@ -76,7 +76,7 @@ body {
 }
 
 #isenha {
-    width: 280px;
+    width: 300px;
     height: 5px;
     border: 2px solid #5c0080;
     border-radius: 5px;
@@ -95,16 +95,15 @@ body {
 #entrar {
     display: block;
     position: relative;
-    /* left: 7.5%; */
-    margin: 0px 25px 5px 25px;
+    margin: 0px 25px 12px 25px;
     background-color: rgb(46, 197, 185);
     color: white;
     font-weight: 500;
     font-size: 12px;
     border-radius: 5px;
     border: none;
-    width: 280px;
-    padding: 5px 0px 5px 0px;
+    width: 300px;
+    padding: 10px 0px 10px 0px;
 }
 
 #entrar:hover {
@@ -114,15 +113,15 @@ body {
 #esqueci {
     display: block;
     position: relative;
-    margin: 0px 25px 5px 25px;
+    margin: 0px 25px 0px 25px;
     background-color: white;
     color: rgb(41, 170, 159);
     font-weight: 500;
     font-size: 12px;
     border-radius: 5px;
     border: 1px solid rgb(46, 197, 185);
-    width: 280px;
-    padding: 5px 0px 5px 0px;
+    width: 300px;
+    padding: 10px 0px 10px 0px;
 }
 
 #esqueci:hover {
