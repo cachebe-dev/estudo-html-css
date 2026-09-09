@@ -7,7 +7,8 @@
     font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: rgb(92, 0, 128);
+    background-image: 
+        linear-gradient(to bottom, rgb(74, 0, 104), rgb(113, 0, 158));
     background-attachment: fixed;
     position: absolute;
     top: 50%;
@@ -27,7 +28,7 @@ body {
 
 .imagem {
     position: relative;
-    background-image: url(../imagens/backgound-lite.jpg);
+    background-image: url(../imagens/hero-landscape.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,7 +95,7 @@ body {
     display: block;
     position: relative;
     margin: 0px 25px 12px 25px;
-    background-color: rgb(46, 197, 185);
+    background-color: #5A8AEC;
     color: white;
     font-weight: 500;
     font-size: 12px;
@@ -105,7 +106,7 @@ body {
 }
 
 #entrar:hover {
-    background-color: rgb(33, 143, 134);
+    background-color: #3f66b4;
     transition-duration: 0.4s;
 }
 #esqueci {
@@ -113,19 +114,19 @@ body {
     position: relative;
     margin: 0px 25px 0px 25px;
     background-color: white;
-    color: rgb(41, 170, 159);
+    color: #5A8AEC;
     font-weight: 500;
     font-size: 12px;
     border-radius: 5px;
-    border: 1px solid rgb(46, 197, 185);
+    border: 1px solid #5A8AEC;
     width: 300px;
     padding: 10px 0px 10px 0px;
 }
 
 #esqueci:hover {
-    background-color: rgb(33, 143, 134);
+    background-color: #3f66b4;
     color: white;
-    border: 1px solid rgb(33, 143, 134);
+    border: 1px solid #3f66b4;
     transition-duration: 0.4s;
 }
 
