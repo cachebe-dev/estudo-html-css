@@ -94,7 +94,7 @@ Grandes Telas: Acima de 1200px
         border-radius: 30px;
     }    
     .imagem {
-        background-image: url(../imagens/hero.png);
+        background-image: url(../imagens/hero.jpg);
         width: 350px;
         height: 550px;
         border-radius: 20px 0px 0px 20px;

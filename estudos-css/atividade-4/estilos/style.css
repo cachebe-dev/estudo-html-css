@@ -23,12 +23,12 @@ body {
     width: 350px;
     height: 520px;
     border-radius: 20px;
-    
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.356);
 }
 
 .imagem {
     position: relative;
-    background-image: url(../imagens/hero-landscape.png);
+    background-image: url(../imagens/hero-landscape.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
