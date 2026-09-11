@@ -11,17 +11,18 @@ Desktop: de 992px até 1200px
 Grandes Telas: Acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIG PARA TABLET */
     body {
         background-image: linear-gradient(to top, #49A09D,#5F2C82);
     }
     #login {
         width: 90vw;
+        height: 280px;
     }
     #imagem {
         background: #5F2C82 url(../imagens/hero.jpg) no-repeat;
         background-size: cover;
-        background-position: center center;
+        background-position: top center;
         float: left;
         width: 30%;
         height: 100%;
@@ -31,24 +32,25 @@ Grandes Telas: Acima de 1200px
         width: 70%;
     }    
 }
-@media screen and (min-width: 922px) {
+@media screen and (min-width: 922px) { /* CONFIG PARA DESKTOP */
     body {
         background-image: 
             linear-gradient(to top, #8f28d4,#5F2C82);
     }
     #login {
         width: 950px;
+        height: 350px;
     }
     #imagem {
-        background: #5F2C82 url(../imagens/hero.jpg) no-repeat;
+        background: #5F2C82 url(../imagens/hero-desk.jpg) no-repeat;
         background-size: cover;
-        background-position: top center;
-        float: left;
+        background-position: center center;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
     #formulario h1 {
@@ -56,5 +58,6 @@ Grandes Telas: Acima de 1200px
     }
     #formulario p {
     font-size: 1.2em;
+    margin: 20px 0px;
     } 
 }
