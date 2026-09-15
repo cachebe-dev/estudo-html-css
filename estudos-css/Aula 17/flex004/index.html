@@ -3,18 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Direction</title>
+    <title>Flexible Box</title>
     <style>
+        body {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: blue;
+        }
+
         .container {
-            background-color: lightsalmon;
+            position: relative;
+            background-color: white;
+            padding: 40px 20px;
+            border-radius: 20px;
             display: flex;
-            flex-direction: row;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: flex-end;
+            
         }
         .item {
+            
             background-color: lightskyblue;
             border: 1px solid black;
+            padding: 30px;
+            margin: 0px 2px 10px 0px;
+            border-radius: 20px;
             text-align: center;
-            padding: 10px;
         }
     </style>
 </head>
