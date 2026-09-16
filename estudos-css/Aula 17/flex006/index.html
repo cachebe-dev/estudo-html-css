@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização de elementos empacotados</title>
+    <style>
+        /* 
+            justify-content: Alinha ao eixo principal. (main axis)
+            align-items: Alinha ao eixo transversal. (cross axis)
+            align-content: Alinha ao eixo transversal quando estão empacotados (wrap). (cross axis)
+        */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: blue;
+        }
+
+        .container {
+            position: relative;
+            height: 500px;
+            background-color: white;
+            padding: 40px 20px;
+            border-radius: 20px;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-evenly;
+            justify-content: center;
+            
+            
+        }
+        .item {
+            
+            background-color: lightskyblue;
+            border: 1px solid black;
+            padding: 30px;
+            margin: 0px 2px 10px 0px;
+            border-radius: 20px;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
