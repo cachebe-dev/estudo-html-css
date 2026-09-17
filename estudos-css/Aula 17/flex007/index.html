@@ -6,9 +6,7 @@
     <title>Centralização de elementos empacotados</title>
     <style>
         /* 
-            justify-content: Alinha ao eixo principal. (main axis)
-            align-items: Alinha ao eixo transversal. (cross axis)
-            align-content: Alinha ao eixo transversal quando estão empacotados (wrap). (cross axis)
+            order: "0 0 4 9" ordem dos elementos dentro do container
         */
 
         * {
@@ -46,16 +44,19 @@
             text-align: center;
             
         }
+        #item-3 {
+            order: -2;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="item">A</div>
         <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
+        <div class="item" id="item-3">C</div>
+        <div class="item" style="order:-1;">D</div>
         <div class="item">E</div>
-        <div class="item">F</div>
+        <div class="item" style="order:1;">F</div>
         <div class="item">G</div>
     </div>
 </body>
