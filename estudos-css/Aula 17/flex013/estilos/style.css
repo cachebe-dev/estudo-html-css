@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: lightgray;
+}
+header {
+    background-color: gray;
+}
+#titulo {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+section {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.377);
+    padding: 10px;
+}
