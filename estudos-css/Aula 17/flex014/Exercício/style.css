@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+header {
+    padding: 10px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.425);
+}
+header > h1 {
+    font-size: 1.3em;
+    padding: 5px;
+}
+header > p {
+    font-size: 0.7em;
+    padding: 5px;
+}
+.flex-content {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+main p {
+    font-size: 0.7em;
+}
+main h2 {
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+.normal {
+    padding: 10px;
+}
