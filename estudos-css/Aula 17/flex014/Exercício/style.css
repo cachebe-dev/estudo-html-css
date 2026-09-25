@@ -8,34 +8,49 @@
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
+    line-height: 1.5em;
     background-color: white;
+    font-size: 1.0em;
 }
 header {
-    padding: 10px;
+    padding: 20px;
     box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.425);
 }
 header > h1 {
-    font-size: 1.3em;
     padding: 5px;
 }
 header > p {
-    font-size: 0.7em;
     padding: 5px;
 }
 .flex-content {
     background-color: lightgray;
-    padding: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
 
+.media-text {
+    display: flex;
+    flex-flow: row wrap;
+}
+.text {
+    border: 1px dotted black;
+    
+}
+.media {
+    border: 1px dotted black;
+}
+.text-media {
+    flex: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
 main p {
-    font-size: 0.7em;
+    margin-bottom: 10px;
+    text-align: justify;
 }
 main h2 {
-    font-size: 1em;
     padding-bottom: 10px;
 }
-.normal {
-    padding: 10px;
-}
+
