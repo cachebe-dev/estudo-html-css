@@ -30,21 +30,17 @@ header > p {
     flex-flow: column nowrap;
 }
 
+section > article {
+    border: 2px dashed red;
+}
 .media-text {
     display: flex;
     flex-flow: row wrap;
 }
-.text {
-    border: 1px dotted black;
-    
-}
-.media {
-    border: 1px dotted black;
-}
+
 .text-media {
-    flex: auto;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap-reverse;
 }
 main p {
     margin-bottom: 10px;
